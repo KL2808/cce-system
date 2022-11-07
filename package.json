@@ -1,0 +1,37 @@
+{
+  "name": "cce-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile-bulma": "sass public/style/bulma/bulma.sass public/style/bulma/bulma.css",
+    "build": "npm run compile-bulma && rollup -c",
+    "dev": "npm run compile-bulma && rollup -c -w",
+    "start": "sirv public --no-clear",
+    "host": "sirv public --host",
+    "validate": "svelte-check"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@tsconfig/svelte": "^2.0.1",
+    "rollup": "^2.53.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.38.3",
+    "svelte-check": "^2.2.2",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "bulma": "^0.9.3",
+    "sass": "^1.35.2",
+    "sirv-cli": "^1.0.12",
+    "svelte-i18n": "^3.3.9",
+    "uuid": "^8.3.2"
+  }
+}

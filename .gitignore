@@ -1,0 +1,6 @@
+/node_modules/
+/public/build/
+/public/style/bulma/*.css
+/public/style/bulma/*.css.map
+
+.DS_Store

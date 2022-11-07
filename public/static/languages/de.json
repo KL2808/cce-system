@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "CCE-System"
+  },
+  "navbar": {
+    "lang": {
+      "lang": "Sprache",
+      "de": "🍻 DE",
+      "en": "☕️ EN",
+      "request": "Sprache vorschlagen"
+    },
+    "export": "CSV Exportieren",
+    "help": "Hilfe"
+  },
+  "cctvtable": {
+    "camera": "Kameratyp",
+    "compression": "Videokompression",
+    "fps": "FPS",
+    "fps_hint": "Bilder pro Sekunde",
+    "hours_a_day": "Stunden/Tag",
+    "days": "Tage",
+    "quantity": "Anzahl",
+    "tb": "TB",
+    "tb_hint": "Terabyte"
+  },
+  "help": {
+    "title": "Hilfe",
+    "subtitle": "Anleitung zur Nutzung des Tools",
+    "articles": {
+      "change_lang": {
+        "title": "Wechseln der Sprache",
+        "text": "Das Wechseln der Sprache ist über das Sprache Dropdown in der Menüleiste der Anwendung möglich. Es stehen die Optionen Deutsch und Englisch zur Verfügung."
+      },
+      "add_row": {
+        "title": "Hinzufügen einer Spalte",
+        "text": "Eine Spalte kann über den in Gelb hervorgehobenen \"+\" Button hinzugefügt werden."
+      },
+      "remove_row": {
+        "title": "Entfernen einer Spalte",
+        "text": "Eine Spalte kann über den in schwarzen \"x\" Button entfernt werden."
+      },
+      "edit_row": {
+        "title": "Bearbeiten einer Spalte",
+        "text": "Das Bearbeiten einer Spalte ist durch das Klicken auf das zu Bearbeitende Attribut der Spalte möglich. Dabei erfolgt die Auswahl des Kameratyps und der Videokompression über ein Dropdown. Die Attribute: FPS, Stunden/Tag, Tage und Anzahl können durch die Eingabe des gewünschten Werts bearbeitet werden."
+      },
+      "csv_export": {
+        "title": "CSV-Export",
+        "text": "Die Tabelle kann über den Export CSV Button in der Menüleiste als CSV (Comma Separated Values) exportiert werden."
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "text": "Wenn Sie einen fehler gefunden haben, oder einen Verbesserungsvorschlag haben, melden Sie sich bitte bei den unten Aufgeführten Kontakten. Klicken Sie auf das Mail-Symbol neben einer der E-Mail-Adressen, um einen neuen Entwurf in Ihrem Mail-Programm zu öffnen."
+    },
+    "close": "Schließen"
+  },
+  "Windowsize": {
+    "title": "Entschuldigung",
+    "subtitle": "Das Fenster ist zu klein für die korrekte Darstellung dieser Webseite. Bitte verkleinere den Zoom des Browsers oder ziehe das etwas Fenster größer."
+  }
+}

@@ -1,0 +1,72 @@
+@import url(./bulma/bulma.css);
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .hide-when-too-small {
+    display: none;
+  }
+  html {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) {
+  .show-when-too-small {
+    display: none;
+  }
+}
+
+::-moz-selection {
+  color: #000;
+  background: #ffd700;
+}
+
+::selection {
+  color: #000;
+  background: #ffd700;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border: 92px groove #fafafa;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #696969;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #b0b0b0;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 69px double #292929;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

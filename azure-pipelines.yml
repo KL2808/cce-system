@@ -1,0 +1,29 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm ci
+  displayName: 'npm install'
+
+- script: |
+    npm run validate
+  displayName: 'npm validate'
+
+- script: |
+    npm run build
+  displayName: 'npm build'
+  
+- task: PublishPipelineArtifact@1
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetPath: $(System.DefaultWorkingDirectory)/public
+    artifactName: cce-system-build

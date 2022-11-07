@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "CCE-System"
+  },
+  "navbar": {
+    "lang": {
+      "lang": "Language",
+      "de": "🍻 DE",
+      "en": "☕️ EN",
+      "request": "Request a language"
+    },
+    "export": "Export CSV",
+    "help": "Help"
+  },
+  "cctvtable": {
+    "camera": "Camera Type",
+    "compression": "Compression",
+    "fps": "FPS",
+    "fps_hint": "Frames per second",
+    "hours_a_day": "Hours/Day",
+    "days": "Days",
+    "quantity": "Quantity",
+    "tb": "TB",
+    "tb_hint": "Terabyte"
+  },
+  "help": {
+    "title": "Help",
+    "subtitle": "Tutorial on how to use this tool",
+    "articles": {
+      "change_lang": {
+        "title": "Switching the language",
+        "text": "Changing the language is possible via the language dropdown in the application's menu bar. The available options are German and English."
+      },
+      "add_row": {
+        "title": "Adding a row",
+        "text": "A row can be added using the \"+\" button highlighted in yellow. button highlighted in yellow."
+      },
+      "remove_row": {
+        "title": "Remove a row",
+        "text": "A row can be removed using the in black \"x\" button to remove it."
+      },
+      "edit_row": {
+        "title": "Edit a row",
+        "text": "Editing a row is possible by clicking on the column attribute to be edited. Here, the selection of the camera type and video compression is done via a dropdown. The attributes: FPS, Hours/Day, Days and Count can be edited by entering the desired value."
+      },
+      "csv_export": {
+        "title": "CSV-Export",
+        "text": "The table can be exported as CSV (Comma Separated Values) using the Export CSV button in the menu bar."
+      }
+    },
+    "contact": {
+      "title": "Contact us!",
+      "text": "If you found a Bug, or just have a good idea for this tool. Please reach out to one of the maintainers listed below. Click on the mail-icon next to one of the email-addresses to open a new draft in your mail program."
+    },
+    "close": "Close"
+  },
+  "Windowsize": {
+    "title": "We're sorry",
+    "subtitle": "The window is too small for the correct display of this web page. Please reduce the zoom of the browser, or drag the window a little larger."
+  }
+}
